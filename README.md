@@ -1,0 +1,30 @@
+# Portofolio — Muh. Syafaat Aslam
+
+Website portofolio pribadi yang menampilkan profil, keahlian, dan proyek selama menjadi mahasiswa Program Studi Teknik Komputer, Universitas Negeri Makassar (UNM). Dibangun sebagai tugas mata kuliah pemrograman web, murni pakai HTML dan CSS (tanpa framework/library eksternal selain Google Fonts).
+
+**Live site:** [kefciii.github.io/Portofolio](https://kefciii.github.io/Portofolio/)
+
+## Struktur halaman
+
+| File | Deskripsi |
+|---|---|
+| `index.html` | Halaman utama — perkenalan singkat dan ringkasan singkat (stack yang dipakai, jumlah proyek). |
+| `profile.html` | Tentang saya dan daftar keahlian utama (web development, pemrograman, sistem & tools). |
+| `project.html` | Daftar proyek yang sudah dikerjakan. |
+| `contact.html` | Cara menghubungi (lewat GitHub). |
+| `style.css` | Satu berkas CSS eksternal yang dipakai oleh seluruh halaman. |
+| `foto_profil.jpg` | Foto profil yang ditampilkan di sidebar setiap halaman. |
+
+## Fitur
+
+- Navigasi flat dengan penanda halaman aktif
+- Sidebar profil bergaya jendela terminal (khas identitas pengguna Linux)
+- Daftar keahlian dalam layout list bernomor (bukan grid kartu generik)
+- Kartu proyek bergaya mockup jendela browser
+- Desain gelap (dark theme) memakai warna resmi Linux Mint
+- Responsif — sidebar menumpuk di atas konten pada layar sempit
+- Dasar aksesibilitas: skip-link, focus state yang terlihat, `alt` text pada gambar
+
+## Catatan
+
+Proyek ini merupakan revisi dari versi awal yang tampilannya masih terasa generik/template. Desain dirombak ulang supaya lebih personal dan mencerminkan identitas pembuatnya sebagai pengguna Linux Mint sehari-hari.
